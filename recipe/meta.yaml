@@ -20,7 +20,6 @@ requirements:
     - python >=3.7
   run:
     - branca
-    - descartes
     - folium
     - geojson
     - geopandas
@@ -32,6 +31,10 @@ requirements:
     - tenacity
     - tqdm
     - pystac-client
+    - shapely
+    - oauthlib
+    - pandas
+    - numpy
 
 test:
   imports:
@@ -52,4 +55,4 @@ about:
 extra:
   recipe-maintainers:
     - andher1802
-    - chrieke
+    - seedlit
