@@ -21,16 +21,16 @@ requirements:
   run:
     - branca
     - folium
-    - geojson==3.0.1
-    - geopandas==0.13.2
+    - geojson ==3.0.1
+    - geopandas ==0.13.2
     - matplotlib-base
     - python >=3.7
     - rasterio
-    - requests==2.31.0
+    - requests ==2.31.0
     - requests-oauthlib
-    - tenacity==8.2.2
-    - tqdm==4.66.0
-    - pystac-client==0.7.2
+    - tenacity ==8.2.2
+    - tqdm ==4.66.0
+    - pystac-client ==0.7.2
     - shapely
     - oauthlib
     - pandas
