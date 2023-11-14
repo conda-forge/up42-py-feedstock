@@ -17,7 +17,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8,<3.12
+    - python >=3.8, <3.12
     - poetry
   run:
     - branca
@@ -25,7 +25,7 @@ requirements:
     - geojson ==3.0.1
     - geopandas ==0.13.2
     - matplotlib-base
-    - python >=3.8,<3.12
+    - python >=3.8, <3.12
     - rasterio
     - requests ==2.31.0
     - requests-oauthlib
@@ -38,7 +38,6 @@ requirements:
     - numpy
     - pystac
     - poetry
-    - up42-py
 
 test:
   imports:
