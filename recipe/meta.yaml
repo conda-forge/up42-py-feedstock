@@ -35,6 +35,7 @@ requirements:
     - oauthlib
     - pandas
     - numpy
+    - poetry
 
 test:
   imports:
