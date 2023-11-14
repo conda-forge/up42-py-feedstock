@@ -18,6 +18,7 @@ requirements:
   host:
     - pip
     - python >=3.8
+    - poetry
   run:
     - branca
     - folium
@@ -36,6 +37,7 @@ requirements:
     - pandas
     - numpy
     - pystac
+    - poetry
 
 test:
   imports:
