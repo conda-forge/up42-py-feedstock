@@ -35,7 +35,7 @@ requirements:
     - oauthlib
     - pandas
     - numpy
-    - poetry
+    - pystac
 
 test:
   imports:
