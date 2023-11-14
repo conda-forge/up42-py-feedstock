@@ -24,6 +24,11 @@ jobs:
     displayName: Configure binfmt_misc
 
   - script: |
+    python -m pip install --upgrade pip
+    pip install poetry
+    displayName: Install Poetry
+
+  - script: |
         export CI=azure
         export flow_run_id=azure_$(Build.BuildNumber).$(System.JobAttempt)
         export remote_url=$(Build.Repository.Uri)
