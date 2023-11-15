@@ -38,7 +38,6 @@ requirements:
     - numpy
     - pystac
     - poetry
-    - up42-py
 
 test:
   imports:
