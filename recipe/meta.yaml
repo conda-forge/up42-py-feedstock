@@ -15,6 +15,11 @@ build:
   number: 0
 
 requirements:
+  build:
+    - pip
+    - python >=3.8, <3.12
+    - setuptools
+    - wheel
   host:
     - pip
     - python >=3.8, <3.12
