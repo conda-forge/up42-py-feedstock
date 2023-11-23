@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/up42-py-{{ version }}.tar.gz
-  sha256: 868edc0102d834d0479d58f77f0fddcace8e8ca745716889ea9523f959502e2a
+  sha256: 7fbe3e42513d53e3292d1e19e0f6c2387d0d589f68d191850e10f88ff0f11459
 
 build:
   noarch: python
