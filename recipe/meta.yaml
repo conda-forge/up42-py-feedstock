@@ -31,7 +31,7 @@ requirements:
     - requests ==2.31.0
     - tqdm ==4.66.0
     - tenacity ==8.4.1
-    - pystac-client ==0.8.2
+    - pystac-client ==0.8.1
     - shapely
     - pandas
     - pystac
