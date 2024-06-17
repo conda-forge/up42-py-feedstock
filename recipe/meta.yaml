@@ -35,7 +35,7 @@ requirements:
     - shapely
     - pandas
     - pystac
-    - urllib3=2.2.2
+    - urllib3 =2.2.2
 
 test:
   imports:
