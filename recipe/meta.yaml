@@ -32,7 +32,7 @@ requirements:
     - geopandas <1
     - python >={{ python_min }},<4
     - rasterio
-    - requests ==2.31.0
+    - requests ==2.32.4
     - tqdm ==4.66.0
     - tenacity ==8.4.1
     - pystac-client >=0.7.2, <0.8.0
