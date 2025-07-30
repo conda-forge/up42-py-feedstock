@@ -151,4 +151,6 @@ Feedstock Maintainers
 * [@andher1802](https://github.com/andher1802/)
 * [@janchrizz](https://github.com/janchrizz/)
 * [@jmigueldelgado](https://github.com/jmigueldelgado/)
-* [@matheuspinheirosantos](https://github.com/matheuspinheirosantos)
+* [@matheuspinheirosantos](https://github.com/matheuspinheirosantos/)
+* [@mohamed-aboshosha-up42](https://github.com/mohamed-aboshosha-up42/)
+
