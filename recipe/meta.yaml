@@ -1,5 +1,5 @@
 {% set name = "up42-py" %}
-{% set version = "2.6.0" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: d152655e1d085ea713416b2d10355e2d680bdfc22024b71d00de532d129c59ae
+  sha256: 47b31ed99a01bd6cd38b076b2e303e2cccf4f5b3ab264a0248d3c37bf5acd283
 
 build:
   noarch: python
@@ -26,12 +26,13 @@ requirements:
     - poetry
   run:
     - geojson ==3.1.0
-    - geopandas <2
     - python >={{ python_min }},<4
-    - requests ==2.32.4
+    - requests >=2.32.4, <2.33.0
     - tqdm ==4.66.0
     - tenacity ==8.4.1
     - pystac-client >=0.7.2, <0.8.0
+    - urllib3 >=2.5.0, <2.6.0
+    - packaging ==25.0
 
 test:
   imports:
