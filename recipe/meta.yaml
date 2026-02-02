@@ -1,5 +1,5 @@
 {% set name = "up42-py" %}
-{% set version = "3.1.0" %}
+{% set version = "3.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 95216bf6cc29b28da5280eb7a48e9ae8c9b81e4a05dcda125d6980a504d9050d
+  sha256: 94d9adef517de391f847d419349f2f9a78009e8ed0782dcc31cfc161d177c18c
 
 build:
   noarch: python
@@ -31,7 +31,7 @@ requirements:
     - tqdm ==4.66.0
     - tenacity ==8.4.1
     - pystac-client >=0.7.2, <0.8.0
-    - urllib3 >=2.5.0, <2.6.0
+    - urllib3 >=2.6.0,<3.0.0
     - packaging ==25.0
 
 test:
